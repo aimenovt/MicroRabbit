@@ -1,6 +1,7 @@
 ﻿using MicroRabbit.Domain.Bus;
 using MicroRabbit.Infra.Bus;
 using Microsoft.Extensions.DependencyInjection;
+using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
