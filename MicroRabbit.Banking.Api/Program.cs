@@ -18,7 +18,7 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(Pro
 DependencyContainer.RegisterServices(builder.Services);
 builder.Services.AddDbContext<BankingDbContext>(o =>
 {
-    o.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
+    o.UseNpgsql(builder.Configuration.GetConnectionString("BankingDbConnection"));
 });
 
 var app = builder.Build();
