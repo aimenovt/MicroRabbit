@@ -7,6 +7,7 @@ using MicroRabbit.Transfer.Domain.EventHandlers;
 using MicroRabbit.Transfer.Domain.Events;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 var builder = WebApplication.CreateBuilder(args);
 
