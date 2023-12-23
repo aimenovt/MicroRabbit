@@ -91,7 +91,7 @@ namespace MicroRabbit.Infra.Bus
             };
 
             var connection = factory.CreateConnection();
-            var channel = connection.CreateModel();
+            var channel = connection.CreateModel(); 
 
             var eventName = typeof(T).Name;
 
